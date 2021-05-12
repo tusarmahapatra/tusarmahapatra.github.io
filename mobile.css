@@ -1,0 +1,213 @@
+@media all and (max-width: 500px){
+    html {
+        scroll-behavior: smooth;
+      }
+    body{
+        background-image: url(https://me081098.s3.ap-south-1.amazonaws.com/4440058-hd-wallpapers.jpg);
+        background-color: #cccccc;
+        background-size: 100% 100%;
+    }
+    
+    .square {
+        width: 50%;
+        height: 50%;
+      }
+      
+      .square:after {
+        content: "";
+        display: block;
+      
+      }
+    .ratio{
+        margin: auto;
+            position: relative;
+            display: block;
+            max-width:200px;
+            width: auto;
+            height: auto;
+            border-radius: 100%;
+    }
+    .dp{
+        margin: auto;
+        margin-top: 10vh;
+        max-width: 200px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: -5vw;
+        animation-name: bar;
+        animation-duration: 1.5s;
+    }
+    .dp img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    
+    @keyframes bar {
+        0%{max-width: 0;}
+      100%{max-width: 40vh;}
+    }
+    
+    .holder{
+        z-index: -1;
+        padding-top: 5vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 70vw;
+        height: 30vw;
+        margin: auto;
+        border-radius: 1.5vw;
+        text-align: center;
+    }
+    
+    .name{
+        top: 5%;
+        color: rgb(4, 4, 85);
+        font-size: 8vw;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .desc{
+        font-weight: bold;
+        color: rgb(4, 4, 85);
+        font-size: 5vw;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .head{
+        margin-top: 5vw;
+        color: rgb(255,255,255);
+        font-size: 8vw;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        -webkit-text-stroke-width: 0.05vw;
+        -webkit-text-stroke-color: black;
+        font-weight: bold;
+    }
+    
+    .project{
+        margin-top: 2vw;
+        height: 40vw;
+        width: 95vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        display: block;
+        text-align: center;
+        border-radius: 0.8vw;
+        overflow: scroll;
+    }
+    
+    
+    .container{
+        background-image: url(https://me081098.s3.ap-south-1.amazonaws.com/1.jpg);
+        margin: 2vw;
+        height: 15vw;
+        width: 15vw;
+        display: inline-block;
+        
+        border-radius: 2vw;
+        position: relative;
+        
+        opacity: 0.8;
+        background-size: cover;
+    }
+    
+    .headC{
+        margin-top: 5vw;
+        color: rgb(255, 255, 255);
+        font-size: 5vw;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    
+    .Contact{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 80vw;
+        border-radius: 2vw;
+        margin: auto;
+        height: 50vw;
+        align-items: center;
+        top: 5%;
+        padding-top:20px;
+    }
+    
+    .icons{
+        padding-top: 1vw;
+        margin: auto;
+        width: 30vh;
+        text-align: center;
+    }
+    
+    .tags {
+        color: white;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 1.5vw ;
+        
+    }
+    .anchor{
+        text-align: right;
+        height: 2.5vw;
+        margin-bottom: -2vw;
+    }
+    
+    .project_{
+        margin-top: 2vw;
+        height: 70vw;
+        width: 75%;
+        background-color: rgba(255, 255, 255, 0.5);
+        display: block;
+        text-align: center;
+        margin: auto;
+        border-radius: 1vw;
+        padding-top: 5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        overflow: scroll;
+    }
+    
+    .about{
+        color: rgb(4, 4, 85);
+        font-size: 3vw;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:10px;
+        right:10px;
+        background-color:#0C9;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        box-shadow: 2px 2px 3px #999;
+    }
+    
+    .up{
+        width:60px;
+        height:60px;
+    }
+    
+    
+    
+    .p1{
+        text-align: center;
+        color: rgb(4, 4, 85);
+        font-size: 3vw;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .fa {
+        margin: 1vw;
+        padding: 1vw ;
+        font-size: 10vw;
+        width: 15vw;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 1vw;
+        top: 5%;
+      }
+}
