@@ -47,7 +47,7 @@
     
     @keyframes bar {
         0%{max-width: 0;}
-      100%{max-width: 40vh;}
+      100%{max-width: 200px;}
     }
     
     .holder{
@@ -142,18 +142,18 @@
         color: white;
         padding-left: 1vw;
         padding-right: 1vw;
-        font-size: 1.5vw ;
+        font-size: 4vw ;
         
     }
     .anchor{
         text-align: right;
-        height: 2.5vw;
+        height: 3vw;
         margin-bottom: -2vw;
     }
     
     .project_{
         margin-top: 2vw;
-        height: 70vw;
+        height: 100vw;
         width: 75%;
         background-color: rgba(255, 255, 255, 0.5);
         display: block;
@@ -168,7 +168,8 @@
     
     .about{
         color: rgb(4, 4, 85);
-        font-size: 3vw;
+        font-size: 4vw;
+        font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
         
     }
@@ -195,14 +196,15 @@
     
     .p1{
         text-align: center;
+        font-weight: bold;
         color: rgb(4, 4, 85);
-        font-size: 3vw;
+        font-size: 3.2vw;
         font-family: 'Courier New', Courier, monospace;
     }
 
     .fa {
         margin: 1vw;
-        padding: 1vw ;
+        padding: 1px ;
         font-size: 10vw;
         width: 15vw;
         text-align: center;
