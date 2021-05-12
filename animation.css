@@ -1,0 +1,41 @@
+.icon:hover {
+    animation:  shake 0.4s  ;
+  }
+  
+  @keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(2vw);
+    }
+      
+
+    50%{
+      transform: translateX(-2vw);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+
+  .iconR:hover {
+    animation:  shakeR 0.4s  ;
+  }
+  
+  @keyframes shakeR{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(-2vw);
+    }
+      
+    50%{
+      transform: translateX(2vw);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+  

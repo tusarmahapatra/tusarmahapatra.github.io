@@ -1,0 +1,60 @@
+/* Style all font awesome icons */
+
+
+
+
+
+
+.fa {
+    margin: 1vw;
+    padding: 1vw ;
+    font-size: 2vw;
+    width: 3vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    top: 5%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram{
+      background: rgb(247, 100, 139);
+      color: white;
+  }
+
+  .fa-linkedin-square{
+    background: rgb(40, 103, 178);
+    color: white;
+  }
+
+  .fa-github{
+    background: black;
+    color: white;
+  }
+
+  .fa-envelope{
+    background: rgb(255, 255, 255);
+    color: red;
+  }
+  .fa-phone{
+    background: rgb(255, 255, 255);
+    color: blue;
+  }
