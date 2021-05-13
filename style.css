@@ -29,7 +29,7 @@ body{
 }
 .dp{
     margin: auto;
-    margin-top: 70px;
+    margin-top: 10vh;
     max-width: 40vh;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
@@ -59,8 +59,14 @@ body{
     margin: auto;
     border-radius: 1.5vw;
     text-align: center;
+    animation-name: bar1;
+    animation-duration: 1.5s;
 }
 
+@keyframes bar1 {
+    0%{opacity: 0;}
+  100%{opacity: 1;}
+}
 .name{
     color: rgb(4, 4, 85);
     font-size: 7vw;
@@ -91,8 +97,11 @@ body{
     text-align: center;
     border-radius: 0.8vw;
     overflow: scroll;
+    
 }
-
+.project::-webkit-scrollbar {
+    display: none;
+  }
 
 .container{
     background-image: url(https://me081098.s3.ap-south-1.amazonaws.com/1.jpg);
@@ -133,18 +142,7 @@ body{
     text-align: center;
 }
 
-.tags {
-    color: white;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    font-size: 1.5vw ;
-    
-}
-.anchor{
-    text-align: right;
-    height: 2.5vw;
-    margin-bottom: -2vw;
-}
+
 
 .project_{
     margin-top: 2vw;
@@ -160,6 +158,9 @@ body{
     padding-right: 10vw;
     overflow: scroll;
 }
+.project_::-webkit-scrollbar {
+    display: none;
+  }
 
 .about{
     color: rgb(4, 4, 85);
@@ -193,4 +194,53 @@ body{
     color: rgb(4, 4, 85);
     font-size: 3vw;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.dd{
+    margin-top: 0px ;
+    margin-left: 88vw;
+    margin-bottom: -12vh;    
+}
+
+
+.anchor{
+    border-radius: 0.2vw;
+    text-align: right;
+    height: 10vw;
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    background-color: rgba(4, 4, 85, 0.5);
+    z-index: 1;
+    width: 10vw;
+    margin-left: -4vw;
+}
+
+.tags {
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.5vw ;
+    display: block;
+    text-decoration: none;
+}
+.tags1 {
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.5vw ;
+    display: block;
+    text-decoration: none;
+}
+
+.content a:hover {background-color: rgba(255, 255, 255, 0.8);color: rgb(4, 4, 85);font-weight: bold;}
+.dd:hover .content {display: block;}
+.dd:hover .ham {background-color: white; color: rgb(4, 4, 85);}
+
+.content{
+    width: 5vw;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    
 }

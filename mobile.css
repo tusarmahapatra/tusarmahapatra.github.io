@@ -146,9 +146,7 @@
         
     }
     .anchor{
-        text-align: right;
-        height: 3vw;
-        margin-bottom: -2vw;
+        visibility: hidden;
     }
     
     .project_{
