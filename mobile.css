@@ -148,9 +148,7 @@
     .anchor{
         visibility: hidden;
     }
-    .dd{
-        visibility: hidden;
-    }
+    
     .project_{
         margin-top: 2vw;
         height: 100vw;
@@ -185,17 +183,19 @@
         border-radius:50px;
         text-align:center;
         box-shadow: 2px 2px 3px #999;
-        
+
 visibility: hidden;
     }
     
     .up{
         width:60px;
         height:60px;
-        
+
 visibility: hidden;
     }
-    
+    .dd{
+visibility: hidden;
+}
     
     
     .p1{
