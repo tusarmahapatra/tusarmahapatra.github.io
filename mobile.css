@@ -148,7 +148,9 @@
     .anchor{
         visibility: hidden;
     }
-    
+    .dd{
+        visibility: hidden;
+    }
     .project_{
         margin-top: 2vw;
         height: 100vw;
