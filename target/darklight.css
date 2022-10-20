@@ -4,12 +4,12 @@ body {
     font-family: sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    margin: auto;
+    /* margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: center; */
 }
 
 .btn-group {
